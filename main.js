@@ -20,8 +20,13 @@
 
 ///////////////////////////////
 
-// const str = 'Hello\World\nTest';
-// const regex = /\S/gmi;
+// const str = 'Hello\tWorld\nTest';
+// const regex = /\s/gmi;
 // const result = str.match(regex);
 // console.log(result);
 
+///////////////////////////
+const str = 'loremipsumdolor';
+const regex = /o/g;
+const result = str.match(regex);
+console.log(result.length);
